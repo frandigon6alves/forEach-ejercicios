@@ -6,4 +6,4 @@ const numbers = [1, 2, 3, 4, 5];
 function multiplyByTwo(number) {
   console.log(number * 2);
 }
-numbers.forEach(function() {}); // Output: 2 4 6 8 10
+numbers.forEach(multiplyByTwo); // Output: 2 4 6 8 10

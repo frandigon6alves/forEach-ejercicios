@@ -5,6 +5,8 @@
 const numbers = [1, 2, 3, 4, 5];
 let filteredNumbers = [];
 numbers.forEach((number) => {
-// completar
+    if (number > 2) {
+        filteredNumbers.push(number);
+      }
 });
 console.log(filteredNumbers); // Output: [3, 4, 5]

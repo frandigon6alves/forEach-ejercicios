@@ -5,6 +5,6 @@
 const names = ["John", "Sarah", "Mike"];
 let people = [];
 names.forEach((name) => {
-    // 1 línea de código
+    people.push({ name: name });
 });
 console.log(people); // Output: [{name: "John"}, {name: "Sarah"}, {name: "Mike"}]

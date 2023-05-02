@@ -3,4 +3,8 @@
 const names = ["John", "Sarah", "Mike"];
 let suma = 0;
 
+names.forEach(name => {
+    suma += name.length;
+  });
+
 console.log("Suma: ", suma); // Output: 13
